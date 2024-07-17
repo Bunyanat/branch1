@@ -9,7 +9,7 @@
       <q-input
         filled
         v-model="name"
-        label="ชื่อขสกุล *"
+        label="ชื่อสกุล *"
         hint="ชื่อและนามสกุล"
         lazy-rules
         :rules="[ val => val && val.length > 0 || 'ให้พิมพ์ชื่อและนามสกุล']"
